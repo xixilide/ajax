@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './main.css';
+// import './main.css';
 import App from './App';
+import Axios from './axio';
 
 
-ReactDOM.render(<Todo />,document.getElementById('root'));
+
+
+ReactDOM.render(<Axios />,document.getElementById('root'));
