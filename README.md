@@ -97,6 +97,7 @@ componentDidMount(){
 　axios---　Promise based HTTP client for the browser and node.js
 
 get 请求
+#### 通用代码
 
 ```js
 componentDidMount(){
@@ -109,6 +110,8 @@ componentDidMount(){
   })
 }
 ```
+#### 实例１
+
 ```js
 componentDidMount(){
   axios.get("http://api.github.com/users/xixilide")
@@ -129,7 +132,8 @@ return(
 }
   </div>
 ```
-###
+#### 实例２
+
 ```js
 class Axios extends React.Component {
   constructor(){
@@ -165,3 +169,7 @@ class Axios extends React.Component {
       </div>}
   </div>
 ```
+
+### 4.用SuperAgent实现AJAX
+
+SuperAgent is light-weight progressive ajax API crafted for flexibility, readability, and a low learning curve after being frustrated with many of the existing request APIs. It also works with Node.js!

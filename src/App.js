@@ -24,7 +24,7 @@ componentDidMount(){
   render(){
     return(
       <div>
-        {this.state.wait? '正在加载数据'　: <div>
+        {this.state.wait ? '正在加载数据'　: <div>
              <img  src={this.state.data.avatar_url}/>
           <p>个人简介：{this.state.data.bio}</p>
         </div>}
